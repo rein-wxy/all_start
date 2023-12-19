@@ -1,7 +1,7 @@
 #include "bsp_can.h"
 
 
-CAN_RxHeaderTypeDef RxMessage;											//CAN通讯得到的消息
+CAN_RxHeaderTypeDef RxMessage;							//CAN通讯得到的消息
 CAN_TxHeaderTypeDef TxMessage;											//CAN通讯发出的消息
 
 
@@ -38,10 +38,11 @@ void can_filter_init(void)//筛选器配置
 
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 {
-	HAL_CAN_GetRxMessage(&hcan1,CAN_RX_FIFO0,&RxMessage,RXData);
+	HAL_CAN_GetRxMessage(hcan,CAN_RX_FIFO0,&RxMessage,RXData);
 	if(hcan->Instance == CAN1){
 		switch (RxMessage.StdId){
-			
+			case 0x205:
+			DJI_MOTOR_GET_MESSAGE(&GM6020,&hcan1,RXData); break;
 		}
 	}
 	

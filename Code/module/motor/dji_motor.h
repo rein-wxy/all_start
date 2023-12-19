@@ -19,6 +19,7 @@ typedef struct
 	int32_t  last_total_angle;
 	int32_t  angle_err;
 	int16_t  torque;					 //×ª¾Ø
+
 }dji_motor_data;
 
 

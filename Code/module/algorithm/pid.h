@@ -98,6 +98,6 @@ extern fp32 PID_calc(pid_type_def *pid, fp32 ref, fp32 set);
   * @retval         none
   */
 extern void PID_clear(pid_type_def *pid);
-
+extern pid_type_def pid_gm6020;
 
 #endif

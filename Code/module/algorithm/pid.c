@@ -18,6 +18,8 @@
 #include "pid.h"
 #include "main.h"
   
+  
+pid_type_def pid_gm6020;
 #define LimitMax(input, max)   \
     {                          \
         if (input > max)       \

@@ -27,20 +27,16 @@ Project File Date:  11/11/2023
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keli MDK\1\ARM\ARMCC\Bin'
 Build target 'all_start'
-assembling startup_stm32f407xx.s...
-compiling usart.c...
-compiling stm32f4xx_it.c...
+compiling main.c...
+../Code/module/motor/dji_motor.h(42): warning:  #1-D: last line of file ends without a newline
+  #endif
 ../Code/module/algorithm/crcn.h(14): warning:  #1-D: last line of file ends without a newline
   #endif
-../Core/Src/stm32f4xx_it.c(224): warning:  #111-D: statement is unreachable
-    HAL_UART_IRQHandler(&huart3);
-../Core/Src/stm32f4xx_it.c(323): warning:  #111-D: statement is unreachable
-    HAL_UART_IRQHandler(&huart6);
-../Core/Src/stm32f4xx_it.c: 3 warnings, 0 errors
+../Core/Src/main.c: 2 warnings, 0 errors
 linking...
-Program Size: Code=15876 RO-data=1264 RW-data=156 ZI-data=19332  
+Program Size: Code=17280 RO-data=1276 RW-data=164 ZI-data=19468  
 FromELF: creating hex file...
-"all_start\all_start.axf" - 0 Error(s), 3 Warning(s).
+"all_start\all_start.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -64,7 +60,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

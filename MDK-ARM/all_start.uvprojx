@@ -787,6 +787,16 @@
               <FileType>1</FileType>
               <FilePath>..\Code\module\motor\dji_motor.c</FilePath>
             </File>
+            <File>
+              <FileName>ht_motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\module\motor\ht_motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>ht_motor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\module\motor\ht_motor.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1472,6 +1482,16 @@
               <FileName>dji_motor.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Code\module\motor\dji_motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>ht_motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\module\motor\ht_motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>ht_motor.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\module\motor\ht_motor.h</FilePath>
             </File>
           </Files>
         </Group>
