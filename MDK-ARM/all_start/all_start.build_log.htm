@@ -17,24 +17,24 @@ Library Manager: ArmAr.exe V5.06 update 6 (build 750)
 Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
 CPU DLL:         SARMCM3.DLL V5.28.0.0
 Dialog DLL:      DCM.DLL V1.17.3.0
-Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Target DLL:      CMSIS_AGDI.dll V1.31.18.0
 Dialog DLL:      TCM.DLL V1.36.2.0
  
 <h2>Project:</h2>
 E:\begin\all_start\MDK-ARM\all_start.uvprojx
-Project File Date:  11/11/2023
+Project File Date:  12/19/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keli MDK\1\ARM\ARMCC\Bin'
 Build target 'all_start'
-compiling main.c...
-../Code/module/motor/dji_motor.h(42): warning:  #1-D: last line of file ends without a newline
+compiling freertos.c...
+../Code/module/motor/dji_motor.h(41): warning:  #1-D: last line of file ends without a newline
   #endif
-../Code/module/algorithm/crcn.h(14): warning:  #1-D: last line of file ends without a newline
-  #endif
-../Core/Src/main.c: 2 warnings, 0 errors
+../Code/module/motor/ht_motor.h(47): warning:  #1295-D: Deprecated declaration HT_motor_init - give arg types
+  void HT_motor_init();
+../Core/Src/freertos.c: 2 warnings, 0 errors
 linking...
-Program Size: Code=17280 RO-data=1276 RW-data=164 ZI-data=19468  
+Program Size: Code=17240 RO-data=1264 RW-data=148 ZI-data=19268  
 FromELF: creating hex file...
 "all_start\all_start.axf" - 0 Error(s), 2 Warning(s).
 
@@ -60,7 +60,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

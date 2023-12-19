@@ -52,6 +52,7 @@
 "all_start\imu.o"
 "all_start\referee.o"
 "all_start\dji_motor.o"
+"all_start\ht_motor.o"
 --library_type=microlib --strict --scatter "all_start\all_start.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

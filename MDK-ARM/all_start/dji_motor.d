@@ -38,3 +38,5 @@ all_start\dji_motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.
 all_start\dji_motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 all_start\dji_motor.o: ../Core/Inc/can.h
 all_start\dji_motor.o: ../Code/module/motor/dji_motor.h
+all_start\dji_motor.o: ../Code/module/motor/ht_motor.h
+all_start\dji_motor.o: ../Code/bsp/bsp_can.h

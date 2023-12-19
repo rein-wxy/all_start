@@ -118,6 +118,7 @@ void MX_FREERTOS_Init(void) {
   * @param  argument: Not used
   * @retval None
   */
+int aaa = -5,b = 0;
 /* USER CODE END Header_StartDefaultTask */
 void StartDefaultTask(void const * argument)
 {
@@ -125,7 +126,9 @@ void StartDefaultTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-	 
+
+	  HT_MOTOR_SendControlPara(0,0,0,0,0,0x01);
+	//HT_MOTOR_SendControlPara(
     osDelay(1);
   }
   /* USER CODE END StartDefaultTask */

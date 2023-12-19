@@ -64,6 +64,7 @@ all_start\main.o: ../Code/module/imu/BMI.h
 all_start\main.o: ../Code/bsp/bsp_can.h
 all_start\main.o: ../Code/module/motor/dji_motor.h
 all_start\main.o: ../Code/bsp/bsp_can.h
+all_start\main.o: ../Code/module/motor/ht_motor.h
 all_start\main.o: ../Code/module/remote/remote_control.h
 all_start\main.o: ../Code/bsp/bsp_usart.h
 all_start\main.o: ../Code/module/referee/referee.h

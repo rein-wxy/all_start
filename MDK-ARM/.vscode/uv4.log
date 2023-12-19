@@ -1,0 +1,15 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keli MDK\1\ARM\ARMCC\Bin'
+Build target 'all_start'
+compiling nm_math.c...
+..\Code\module\algorithm\nm_math.h(68): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Code\module\algorithm\nm_math.c: 1 warning, 0 errors
+compiling ht_motor.c...
+../Code/module/motor/dji_motor.h(42): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Code\module\motor\ht_motor.c: 1 warning, 0 errors
+linking...
+Program Size: Code=16620 RO-data=1276 RW-data=156 ZI-data=19444  
+FromELF: creating hex file...
+"all_start\all_start.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:03

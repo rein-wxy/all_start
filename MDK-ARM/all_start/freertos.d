@@ -60,3 +60,4 @@ all_start\freertos.o: ../Code/bsp/bsp_can.h
 all_start\freertos.o: ../Core/Inc/can.h
 all_start\freertos.o: ../Code/module/motor/dji_motor.h
 all_start\freertos.o: ../Code/bsp/bsp_can.h
+all_start\freertos.o: ../Code/module/motor/ht_motor.h

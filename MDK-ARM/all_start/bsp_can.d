@@ -38,3 +38,4 @@ all_start\bsp_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 all_start\bsp_can.o: ../Core/Inc/can.h
 all_start\bsp_can.o: ../Code/module/motor/dji_motor.h
 all_start\bsp_can.o: ../Code/bsp/bsp_can.h
+all_start\bsp_can.o: ../Code/module/motor/ht_motor.h

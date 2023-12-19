@@ -1,8 +1,6 @@
 #include "dji_motor.h"
 
 
-uint8_t RXData[8];				//CAN通讯得到的消息缓存
-uint8_t TxData[8]; 				//CAN通讯发出的消息缓存
 
 dji_motor_data GM6020;
 
@@ -29,7 +27,7 @@ void DJI_MOTOR_GET_MESSAGE(dji_motor_data *ptr,CAN_HandleTypeDef* hcan,uint8_t R
 		ptr->round_cnt --;
 	else if (ptr->angle - ptr->last_angle < -4096)
 		ptr->round_cnt ++;
-	ptr->total_angle = ptr->round_cnt * 8192 + ptr->angle - ptr->offset_angle; 				//这两个有什么用？还有cnt的问题 ——>正确计算
+	ptr->total_angle = ptr->round_cnt * 8192 + ptr->angle - ptr->offset_angle; 		//这两个有什么用？还有cnt的问题 ——>正确计算
 	ptr->angle_err = ptr->last_total_angle - ptr->total_angle;
 	
 }
@@ -48,10 +46,13 @@ void DJI_MOTOR_GET_MESSAGE(dji_motor_data *ptr,CAN_HandleTypeDef* hcan,uint8_t R
 
 void DJI_MOTOR_SET_VOLTAGE(CAN_HandleTypeDef* hcan,uint8_t id, int16_t iq1, int16_t iq2, int16_t iq3, int16_t iq4)
 {
+	CAN_TxHeaderTypeDef TxMessage;											//CAN通讯发出的消息
 	if(id == id_l)
 		TxMessage.StdId = 0x200;	
 	else 
 		TxMessage.StdId = 0x1FF;
+	
+	uint8_t TxData[8];
 	TxMessage.IDE = CAN_ID_STD;
     TxMessage.RTR = CAN_RTR_DATA;    
     TxMessage.DLC = 8;

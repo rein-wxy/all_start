@@ -108,14 +108,13 @@ int main(void)
   MX_CRC_Init();
   /* USER CODE BEGIN 2 */
   
-  float pid_6020_c[3] ={2,0,0};
 	can_filter_init();
-	PID_init(&pid_gm6020,0,&pid_6020_c[0],9000,4500);
+	HT_motor_init();
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */
   MX_FREERTOS_Init();
-	Remote_Control_Init();
+
   /* Start scheduler */
   osKernelStart();
   /* We should never get here as control is now taken by the scheduler */

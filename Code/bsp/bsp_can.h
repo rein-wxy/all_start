@@ -7,7 +7,7 @@
 #include "can.h"
 #include "stm32f4xx_hal.h"
 #include "dji_motor.h"
-
+#include "ht_motor.h"
 
 
 typedef struct
@@ -32,9 +32,6 @@ typedef struct
 }power_data;
 
 
-										//CAN通讯发出的消息
-extern CAN_RxHeaderTypeDef RxMessage;											//CAN通讯得到的消息
-extern CAN_TxHeaderTypeDef TxMessage;											//CAN通讯发出的消息
 
 /*函数声明*/
 void can_filter_init(void);

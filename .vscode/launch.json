@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/begin/all_start/Code/module/algorithm",
-      "program": "e:/begin/all_start/Code/module/algorithm/build/Debug/outDebug",
+      "cwd": "e:/begin/all_start/Code/bsp",
+      "program": "e:/begin/all_start/Code/bsp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

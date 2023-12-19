@@ -1,6 +1,6 @@
 Dependencies for Project 'all_start', Target 'all_start': (DO NOT MODIFY !)
 F (startup_stm32f407xx.s)(0x654EE39C)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ../Core/Inc-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list startup_stm32f407xx.lst --xref -o all_start\startup_stm32f407xx.o --depend all_start\startup_stm32f407xx.d)
-F (../Core/Src/main.c)(0x654EFA8E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\main.o --omf_browse all_start\main.crf --depend all_start\main.d)
+F (../Core/Src/main.c)(0x658051E6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\main.o --omf_browse all_start\main.crf --depend all_start\main.d)
 I (../Core/Inc/main.h)(0x654B6EC3)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65461B1B)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x654ED547)
@@ -62,8 +62,9 @@ I (../Code/module/algorithm/pid.h)(0x654EF894)
 I (../Code/module/algorithm/struct_typedef.h)(0x6176C451)
 I (D:\keli MDK\1\ARM\ARMCC\include\math.h)(0x5CEB79D6)
 I (../Code/module/imu/BMI.h)(0x64008B84)
-I (../Code/bsp/bsp_can.h)(0x654EE22B)
-I (../Code/module/motor/dji_motor.h)(0x654EF4DA)
+I (../Code/bsp/bsp_can.h)(0x65804B69)
+I (../Code/module/motor/dji_motor.h)(0x65804B69)
+I (../Code/module/motor/ht_motor.h)(0x65812A5B)
 I (../Code/module/remote/remote_control.h)(0x654E0D97)
 I (../Code/bsp/bsp_usart.h)(0x654CE4FA)
 I (../Code/module/referee/referee.h)(0x654E0D5C)
@@ -105,7 +106,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x65461B1B)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65461B1B)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65461B1B)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x65461B1B)
-F (../Core/Src/freertos.c)(0x654EF894)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\freertos.o --omf_browse all_start\freertos.crf --depend all_start\freertos.d)
+F (../Core/Src/freertos.c)(0x65812B17)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\freertos.o --omf_browse all_start\freertos.crf --depend all_start\freertos.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x65461AF1)
 I (D:\keli MDK\1\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
 I (D:\keli MDK\1\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
@@ -162,9 +163,10 @@ I (../Core/Inc/spi.h)(0x65464CEF)
 I (D:\keli MDK\1\ARM\ARMCC\include\math.h)(0x5CEB79D6)
 I (../Code/module/imu/BMI.h)(0x64008B84)
 I (../Core/Inc/tim.h)(0x65464CEF)
-I (../Code/bsp/bsp_can.h)(0x654EE22B)
+I (../Code/bsp/bsp_can.h)(0x65804B69)
 I (../Core/Inc/can.h)(0x65464CEF)
-I (../Code/module/motor/dji_motor.h)(0x654EF4DA)
+I (../Code/module/motor/dji_motor.h)(0x65804B69)
+I (../Code/module/motor/ht_motor.h)(0x65812A5B)
 F (../Core/Src/can.c)(0x654ED545)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\can.o --omf_browse all_start\can.crf --depend all_start\can.d)
 I (../Core/Inc/can.h)(0x65464CEF)
 I (../Core/Inc/main.h)(0x654B6EC3)
@@ -1318,8 +1320,8 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x65461AF1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x65461AF1)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x65461AF1)
-F (..\Code\bsp\bsp_can.c)(0x654EF4DA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\bsp_can.o --omf_browse all_start\bsp_can.crf --depend all_start\bsp_can.d)
-I (..\Code\bsp\bsp_can.h)(0x654EE22B)
+F (..\Code\bsp\bsp_can.c)(0x6581216D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\bsp_can.o --omf_browse all_start\bsp_can.crf --depend all_start\bsp_can.d)
+I (..\Code\bsp\bsp_can.h)(0x65804B69)
 I (../Core/Inc/main.h)(0x654B6EC3)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65461B1B)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x654ED547)
@@ -1355,8 +1357,9 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65461B1B)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65461B1B)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x65461B1B)
 I (../Core/Inc/can.h)(0x65464CEF)
-I (../Code/module/motor/dji_motor.h)(0x654EF4DA)
-I (../Code/bsp/bsp_can.h)(0x654EE22B)
+I (../Code/module/motor/dji_motor.h)(0x65804B69)
+I (../Code/bsp/bsp_can.h)(0x65804B69)
+I (../Code/module/motor/ht_motor.h)(0x65812A5B)
 F (..\Code\bsp\bsp_usart.c)(0x654E3A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\bsp_usart.o --omf_browse all_start\bsp_usart.crf --depend all_start\bsp_usart.d)
 I (..\Code\bsp\bsp_usart.h)(0x654CE4FA)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65461B1B)
@@ -1478,8 +1481,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x65461B1B)
 I (..\Code\module\algorithm\struct_typedef.h)(0x6176C451)
 F (..\Code\module\algorithm\kalman.c)(0x654B594B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\kalman.o --omf_browse all_start\kalman.crf --depend all_start\kalman.d)
 I (..\Code\module\algorithm\kalman.h)(0x640455E0)
-F (..\Code\module\algorithm\nm_math.c)(0x654B9DFC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\nm_math.o --omf_browse all_start\nm_math.crf --depend all_start\nm_math.d)
-I (..\Code\module\algorithm\nm_math.h)(0x654B9DFC)
+F (..\Code\module\algorithm\nm_math.c)(0x65805795)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\nm_math.o --omf_browse all_start\nm_math.crf --depend all_start\nm_math.d)
+I (..\Code\module\algorithm\nm_math.h)(0x65801619)
 F (..\Code\module\remote\Remote_Control.c)(0x654CE4FA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\remote_control.o --omf_browse all_start\remote_control.crf --depend all_start\remote_control.d)
 I (..\Code\module\remote\Remote_Control.h)(0x654E0D97)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65461B1B)
@@ -1611,9 +1614,9 @@ I (../Code/module/algorithm/struct_typedef.h)(0x6176C451)
 I (../Code/bsp/bsp_usart.h)(0x654CE4FA)
 I (../Code/module/referee/referee.h)(0x654E0D5C)
 I (../Code/module/remote/Remote_Control.h)(0x654E0D97)
-F (..\Code\module\motor\dji_motor.c)(0x654EDC41)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\dji_motor.o --omf_browse all_start\dji_motor.crf --depend all_start\dji_motor.d)
-I (..\Code\module\motor\dji_motor.h)(0x654EF4DA)
-I (../Code/bsp/bsp_can.h)(0x654EE22B)
+F (..\Code\module\motor\dji_motor.c)(0x65804B69)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\dji_motor.o --omf_browse all_start\dji_motor.crf --depend all_start\dji_motor.d)
+I (..\Code\module\motor\dji_motor.h)(0x65804B69)
+I (../Code/bsp/bsp_can.h)(0x65804B69)
 I (../Core/Inc/main.h)(0x654B6EC3)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65461B1B)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x654ED547)
@@ -1649,4 +1652,45 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65461B1B)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65461B1B)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x65461B1B)
 I (../Core/Inc/can.h)(0x65464CEF)
-I (../Code/module/motor/dji_motor.h)(0x654EF4DA)
+I (../Code/module/motor/dji_motor.h)(0x65804B69)
+I (../Code/module/motor/ht_motor.h)(0x65812A5B)
+F (..\Code\module\motor\ht_motor.c)(0x658128FF)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Code/application -I ../Code/bsp -I ../Code/module -I ../Code/module/algorithm -I ../Code/module/imu -I ../Code/module/referee -I ../Code/module/remote -I ../Code/module/motor-I.\RTE\_all_start-I"D:\keli MDK\2\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"D:\keli MDK\2\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o all_start\ht_motor.o --omf_browse all_start\ht_motor.crf --depend all_start\ht_motor.d)
+I (..\Code\module\motor\ht_motor.h)(0x65812A5B)
+I (../Core/Inc/main.h)(0x654B6EC3)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65461B1B)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x654ED547)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x65461B1B)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x65461AEA)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x65461AEA)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x65461AEE)
+I (D:\keli MDK\1\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x65461AEE)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x65461AEE)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x65461AEE)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x65461AEE)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x65461AEA)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x65461B1B)
+I (D:\keli MDK\1\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65461B1B)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x65461B1B)
+I (../Code/bsp/bsp_can.h)(0x65804B69)
+I (../Core/Inc/can.h)(0x65464CEF)
+I (../Code/module/motor/dji_motor.h)(0x65804B69)
+I (../Code/module/motor/ht_motor.h)(0x65812A5B)

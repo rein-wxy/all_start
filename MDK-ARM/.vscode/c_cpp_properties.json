@@ -3,26 +3,7 @@
         {
             "name": "windows-gcc-x64",
             "includePath": [
-                "${workspaceFolder}/**",
-                "e:\\begin\\all_start\\Core\\Inc",
-                "e:\\begin\\all_start\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
-                "e:\\begin\\all_start\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy",
-                "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
-                "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS",
-                "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM4F",
-                "e:\\begin\\all_start\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
-                "e:\\begin\\all_start\\Drivers\\CMSIS\\Include",
-                "e:\\begin\\all_start\\Code\\application",
-                "e:\\begin\\all_start\\Code\\bsp",
-                "e:\\begin\\all_start\\Code\\module\\algorithm",
-                "e:\\begin\\all_start\\Code\\module",
-                "D:\\keli MDK\\1\\ARM\\ARMCC\\include",
-                "D:\\keli MDK\\1\\ARM\\ARMCC\\include\\rw",
-                "e:\\begin\\all_start\\MDK-ARM",
-                "e:\\begin\\all_start\\Core\\Src",
-                "e:\\begin\\all_start\\Drivers\\STM32F4xx_HAL_Driver\\Src",
-                "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source",
-                "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
@@ -127,7 +108,10 @@
                 "e:\\begin\\all_start\\Drivers\\STM32F4xx_HAL_Driver\\Src",
                 "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source",
                 "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang",
-                "e:\\begin\\all_start\\Code\\module\\remote"
+                "e:\\begin\\all_start\\Code\\module\\remote",
+                "e:\\begin\\all_start\\Code\\module\\imu",
+                "e:\\begin\\all_start\\Code\\module\\referee",
+                "e:\\begin\\all_start\\Code\\module\\motor"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
@@ -222,14 +206,17 @@
                 "e:\\begin\\all_start\\Code\\bsp",
                 "e:\\begin\\all_start\\Code\\module",
                 "e:\\begin\\all_start\\Code\\module\\algorithm",
+                "e:\\begin\\all_start\\Code\\module\\imu",
+                "e:\\begin\\all_start\\Code\\module\\referee",
+                "e:\\begin\\all_start\\Code\\module\\remote",
+                "e:\\begin\\all_start\\Code\\module\\motor",
                 "D:\\keli MDK\\1\\ARM\\ARMCC\\include",
                 "D:\\keli MDK\\1\\ARM\\ARMCC\\include\\rw",
                 "e:\\begin\\all_start\\MDK-ARM",
                 "e:\\begin\\all_start\\Core\\Src",
                 "e:\\begin\\all_start\\Drivers\\STM32F4xx_HAL_Driver\\Src",
                 "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source",
-                "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang",
-                "e:\\begin\\all_start\\Code\\module\\remote"
+                "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

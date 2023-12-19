@@ -1,10 +1,10 @@
 {
+  "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
   "C_Cpp_Runner.cStandard": "",
   "C_Cpp_Runner.cppStandard": "",
-  "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.useMsvc": false,
   "C_Cpp_Runner.warnings": [
     "-Wall",
@@ -37,27 +37,7 @@
   "C_Cpp_Runner.warningsAsError": false,
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
-  "C_Cpp_Runner.includePaths": [
-    "e:\\begin\\all_start\\Core\\Inc",
-    "e:\\begin\\all_start\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
-    "e:\\begin\\all_start\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\Legacy",
-    "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\include",
-    "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS",
-    "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\RVDS\\ARM_CM4F",
-    "e:\\begin\\all_start\\Drivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
-    "e:\\begin\\all_start\\Drivers\\CMSIS\\Include",
-    "e:\\begin\\all_start\\Code\\application",
-    "e:\\begin\\all_start\\Code\\bsp",
-    "e:\\begin\\all_start\\Code\\module\\algorithm",
-    "e:\\begin\\all_start\\Code\\module",
-    "D:\\keli MDK\\1\\ARM\\ARMCC\\include",
-    "D:\\keli MDK\\1\\ARM\\ARMCC\\include\\rw",
-    "e:\\begin\\all_start\\MDK-ARM",
-    "e:\\begin\\all_start\\Core\\Src",
-    "e:\\begin\\all_start\\Drivers\\STM32F4xx_HAL_Driver\\Src",
-    "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source",
-    "e:\\begin\\all_start\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang"
-  ],
+  "C_Cpp_Runner.includePaths": [],
   "C_Cpp_Runner.includeSearch": [
     "*",
     "**/*"
