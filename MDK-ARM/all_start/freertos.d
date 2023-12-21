@@ -43,6 +43,9 @@ all_start\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 all_start\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 all_start\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 all_start\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+all_start\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
+all_start\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
+all_start\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 all_start\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 all_start\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 all_start\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
@@ -61,3 +64,23 @@ all_start\freertos.o: ../Core/Inc/can.h
 all_start\freertos.o: ../Code/module/motor/dji_motor.h
 all_start\freertos.o: ../Code/bsp/bsp_can.h
 all_start\freertos.o: ../Code/module/motor/ht_motor.h
+all_start\freertos.o: ../Code/module/remote/Remote_Control.h
+all_start\freertos.o: ../Code/bsp/bsp_usart.h
+all_start\freertos.o: ../Core/Inc/usart.h
+all_start\freertos.o: ../Code/module/referee/referee.h
+all_start\freertos.o: D:\keli MDK\1\ARM\ARMCC\Bin\..\include\string.h
+all_start\freertos.o: ../Code/module/algorithm/crcn.h
+all_start\freertos.o: ../Core/Inc/crc.h
+all_start\freertos.o: ../Code/bsp/bsp_usart.h
+all_start\freertos.o: ../Code/module/remote/remote_control.h
+all_start\freertos.o: ..\Code\bsp\usb\bsp_usb.h
+all_start\freertos.o: ../USB_DEVICE/App/usbd_cdc_if.h
+all_start\freertos.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
+all_start\freertos.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
+all_start\freertos.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+all_start\freertos.o: ../USB_DEVICE/Target/usbd_conf.h
+all_start\freertos.o: D:\keli MDK\1\ARM\ARMCC\Bin\..\include\stdio.h
+all_start\freertos.o: D:\keli MDK\1\ARM\ARMCC\Bin\..\include\stdlib.h
+all_start\freertos.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
+all_start\freertos.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
+all_start\freertos.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h

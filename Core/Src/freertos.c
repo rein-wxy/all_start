@@ -27,6 +27,8 @@
 /* USER CODE BEGIN Includes */
 #include "imu.h"
 #include "bsp_can.h"
+#include "Remote_Control.h"
+#include "bsp_usb.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -57,6 +59,7 @@ osThreadId defaultTaskHandle;
 
 void StartDefaultTask(void const * argument);
 
+extern void MX_USB_DEVICE_Init(void);
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
 /* GetIdleTaskMemory prototype (linked to static allocation support) */
@@ -118,17 +121,19 @@ void MX_FREERTOS_Init(void) {
   * @param  argument: Not used
   * @retval None
   */
-int aaa = -5,b = 0;
+
 /* USER CODE END Header_StartDefaultTask */
 void StartDefaultTask(void const * argument)
 {
+  /* init code for USB_DEVICE */
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN StartDefaultTask */
   /* Infinite loop */
+	
   for(;;)
   {
-
-	  HT_MOTOR_SendControlPara(0,0,0,0,0,0x01);
-	//HT_MOTOR_SendControlPara(
+	  
+	
     osDelay(1);
   }
   /* USER CODE END StartDefaultTask */

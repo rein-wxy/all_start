@@ -34,6 +34,9 @@ all_start\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 all_start\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 all_start\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 all_start\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+all_start\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
+all_start\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
+all_start\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
 all_start\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 all_start\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 all_start\main.o: ../Core/Inc/FreeRTOSConfig.h
@@ -54,6 +57,12 @@ all_start\main.o: ../Core/Inc/dma.h
 all_start\main.o: ../Core/Inc/spi.h
 all_start\main.o: ../Core/Inc/tim.h
 all_start\main.o: ../Core/Inc/usart.h
+all_start\main.o: ../USB_DEVICE/App/usb_device.h
+all_start\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+all_start\main.o: ../USB_DEVICE/Target/usbd_conf.h
+all_start\main.o: D:\keli MDK\1\ARM\ARMCC\Bin\..\include\stdio.h
+all_start\main.o: D:\keli MDK\1\ARM\ARMCC\Bin\..\include\stdlib.h
+all_start\main.o: D:\keli MDK\1\ARM\ARMCC\Bin\..\include\string.h
 all_start\main.o: ../Core/Inc/gpio.h
 all_start\main.o: ../Code/module/imu/imu.h
 all_start\main.o: ../Code/module/algorithm/kalman.h
@@ -68,7 +77,6 @@ all_start\main.o: ../Code/module/motor/ht_motor.h
 all_start\main.o: ../Code/module/remote/remote_control.h
 all_start\main.o: ../Code/bsp/bsp_usart.h
 all_start\main.o: ../Code/module/referee/referee.h
-all_start\main.o: D:\keli MDK\1\ARM\ARMCC\Bin\..\include\string.h
 all_start\main.o: ../Code/module/algorithm/crcn.h
 all_start\main.o: ../Code/bsp/bsp_usart.h
 all_start\main.o: ../Code/module/remote/remote_control.h
