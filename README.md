@@ -1,5 +1,4 @@
 ![img](https://github.com/rein-wxy/photo/blob/master/all_start/c.jpg)
-https://github.com/rein-wxy/photo/blob/master/all_start/c.jpg
 # all_start
 
 本工程旨在使用C板开发时免去繁琐的外设模块配置，快速构建应用代码。
